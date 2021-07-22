@@ -14,5 +14,10 @@ class Rectangle{
     perimeter() {
         return 2 * (this.length + this.width);
     }
+
+    //squar area.........................
+    static createSquare(side) {
+        return new Rectangle(side,side);
+    }
 }
 module.exports = Rectangle;

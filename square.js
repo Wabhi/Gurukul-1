@@ -1,4 +1,4 @@
-class Sqaur{
+class Sqaure{
     constructor(side) {
         this.side = side;
     }
@@ -8,4 +8,4 @@ class Sqaur{
         return this.side * this.side;
     }
 }
-module.exports = Sqaur;
+module.exports = Sqaure;
